@@ -4,17 +4,16 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <div>
+    <h1>Alisa's Odd Journey</h1>
+    <h2>AOJ for short.</h2>
+
+    <div className="description">
+      <p>The name of this website is a parody of manga and anime series "JoJo's Bizarre Adventure".</p>
+      <p>This is essentially a personal blog where I talk about random stuff.</p>
+      <p>It includes (but not limited to): Japanese culture and language, everyday life, coding, and so on.</p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  </div>
 )
 
 export default IndexPage
