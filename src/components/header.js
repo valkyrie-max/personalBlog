@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <nav>
         <ul>
-          <li>
+          <li className={HeaderStyling.link}>
             <Link to="/">Home</Link>
           </li>
           <li>
