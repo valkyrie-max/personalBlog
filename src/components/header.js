@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <ul>
-          <li className={HeaderStyling.link}>
+        <ul className={HeaderStyling.linkContainer}>
+          <li>
             <Link to="/">Home</Link>
           </li>
           <li>
@@ -23,9 +23,9 @@ const Header = () => {
         </ul>
       </nav>
       
-      <h1>Alisa's Odd Journey</h1>
-      <h2>AOJ for short.</h2>
-
+      <h1>
+        <Link to="/">Alisa's Odd Journey</Link>
+      </h1>
     </header>
   )
 }

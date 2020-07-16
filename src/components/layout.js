@@ -13,11 +13,13 @@ const Layout = (props) => {
   return (
     <div className={LayoutStyle.container}>
       <Helmet title="Huh?">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Rufina:wght@400;700&display=swap" rel="stylesheet" /> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" /> 
       </Helmet>
-      <Header/>
-        {props.children}
-      <Footer/>
+      <div className={LayoutStyle.content}>
+        <Header/>
+          {props.children}
+      </div>
+        <Footer/>
     </div>
   )
 }

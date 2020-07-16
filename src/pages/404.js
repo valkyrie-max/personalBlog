@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>Uh... There is nothing here?</h1>
+    <h2>Uh... There is nothing here?</h2>
     <p>This route doesn't exist. Come back to <Link to="/">home page?</Link></p>
   </Layout>
 )

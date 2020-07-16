@@ -1,3 +1,31 @@
-.link {
-    font-family: 'Lato', sans-serif;
+.linkContainer {
+    display: flex;
+    margin: 20px 0px 50px 0px;
+    padding: 0;
+    li {
+        margin: 0px 3rem 0px 0px;
+        list-style: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        a {
+            padding-bottom: 0px;
+            border-bottom: 1px solid #B054A9;
+            transition: all ease-in-out 0.3s;
+            margin: 0;
+            color: #B054A9;
+            text-decoration: none;
+        }
+    }
+
+    a:hover {
+        color: #D9C330;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #D9C330;
+    }
+
+    .active {
+        
+    }
 }
