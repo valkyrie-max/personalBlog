@@ -1,12 +1,11 @@
 import React from 'react';
 import {Link} from 'gatsby'
 
+import HeaderStyling from './componentStyling/header.module.scss'
+
 const Header = () => {
   return (
     <header>
-      <h1>Alisa's Odd Journey</h1>
-      <h2>AOJ for short.</h2>
-
       <nav>
         <ul>
           <li>
@@ -23,6 +22,10 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      
+      <h1>Alisa's Odd Journey</h1>
+      <h2>AOJ for short.</h2>
+
     </header>
   )
 }
