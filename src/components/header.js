@@ -9,22 +9,26 @@ const Header = () => {
       <nav>
         <ul className={HeaderStyling.linkContainer}>
           <li>
-            <Link to="/">Home</Link>
+            <Link activeClassName={HeaderStyling.activeNavItem} to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About me</Link>
+            <Link activeClassName={HeaderStyling.activeNavItem} to="/about">About me</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link activeClassName={HeaderStyling.activeNavItem} to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to="/contact">Contact me</Link>
+            <Link activeClassName={HeaderStyling.activeNavItem} to="/contact">Contact me</Link>
           </li>
         </ul>
       </nav>
       
       <h1>
-        <Link to="/">Alisa's Odd Journey</Link>
+        <Link to="/">
+          <span className="lineTop"></span>
+            Alisa's Odd Journey
+          <span className="lineBottom"></span>
+          </Link>
       </h1>
     </header>
   )

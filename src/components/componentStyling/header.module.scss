@@ -11,21 +11,22 @@
         letter-spacing: 1px;
         a {
             padding-bottom: 0px;
-            border-bottom: 1px solid #B054A9;
-            transition: all ease-in-out 0.3s;
+            border-bottom: 1px solid #D9C330;
+            box-shadow: 0px 0px transparent;
+            transition: all ease-out 0.5s;
             margin: 0;
-            color: #B054A9;
+            color: #D9C330;
             text-decoration: none;
         }
     }
 
-    a:hover {
-        color: #D9C330;
-        padding-bottom: 5px;
-        border-bottom: 1px solid #D9C330;
-    }
-
-    .active {
-        
+    a:hover,
+    a:focus,
+    .activeNavItem {
+        outline: none;
+        color: #B054A9;
+        text-shadow: 0px 15px transparentize(#F7F3F3, 0.9), -0px -15px transparentize(#F7F3F3, 0.9);
+        padding-bottom: 15px;
+        border-bottom: 1px solid #B054A9;
     }
 }

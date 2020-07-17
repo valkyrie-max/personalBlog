@@ -12,7 +12,7 @@ html {
 }
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display SC', serif;
 }
 
 p, ul, li {
@@ -20,25 +20,57 @@ p, ul, li {
 }
 
 h1 {
-    margin-bottom: 5rem;
+    margin: 8rem 0 8rem;
+    display: block;
 }
 
 h1 a {
-    font-size: 8rem;
+    font-size: 7rem;
     // letter-spacing: 2px;
+    text-align: center;
     margin: 0;
-    color: #D9C330;
+    color: #B054A9;
     font-weight: 900;
     position: relative;
     text-decoration: none;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 1s;
+    text-shadow: 0px 0px transparent;
 }
 
-h1 a:hover {
-    color: #B054A9;
+.lineTop, .lineBottom {
+    display: block;
+    width: 0%;
+    height: 5px;
+    transition: all ease-in-out 1s;
+    background-color: #D9C330;
+    position: absolute;
 }
+
+.lineBottom {
+    right: 0;
+    margin-top: 10px;
+}
+
+h1 a:focus,
+h1 a:hover {
+    color: #D9C330;
+    outline: none;
+}
+
+h1 a:focus,
+h1 a:hover {
+    .lineTop, .lineBottom {
+        width: 100%;
+        background-color: #B054A9;
+    }
+}
+
 
 p {
     color: #F7F3F3;
     font-size: 1.8rem;
+    line-height: 1.7;
+}
+
+.description {
 }
