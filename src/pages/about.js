@@ -4,8 +4,7 @@ import Layout from '../components/layout'
 const About = () => {
     return (
         <Layout> 
-            <h2>Hello! My name is Alisa.</h2>
-            <h3>Front end developer; anime fanatic and video games enthusiast;</h3>
+            <h2>about me</h2>
         </Layout>
     )
 }

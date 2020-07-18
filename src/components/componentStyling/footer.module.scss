@@ -1,0 +1,11 @@
+.footerLink {
+    text-decoration: none;
+    color: #D9C330;
+    transition: all ease-in-out 0.3s;
+}
+
+.footerLink:hover,
+.footerLink:focus {
+    color: #B054A9;
+    outline: none;
+}
