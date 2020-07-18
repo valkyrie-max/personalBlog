@@ -7,6 +7,14 @@ html {
     background-color: #151413;
 }
 
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: #151413;
+    padding: 15px 0px;
+}
+
 .container {
     box-shadow: 10px 0px 30px rgba(23, 18, 18, 0.2), -10px 0px 30px rgba(23, 18, 18, 0.2);
 }
@@ -22,6 +30,7 @@ p, ul, li {
 h1 {
     margin: 8rem 0 8rem;
     display: block;
+    text-align: center;
 }
 
 h2 {

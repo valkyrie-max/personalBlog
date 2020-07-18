@@ -5,8 +5,8 @@ import HeaderStyling from './componentStyling/header.module.scss'
 
 const Header = () => {
   return (
-    <header>
-      <nav>
+    <>
+    <nav>
         <ul className={HeaderStyling.linkContainer}>
           <li>
             <Link activeClassName={HeaderStyling.activeNavItem} to="/">Home</Link>
@@ -22,6 +22,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+    <header>
       
       <h1>
         <Link to="/">
@@ -31,6 +32,7 @@ const Header = () => {
           </Link>
       </h1>
     </header>
+    </>
   )
 }
 
