@@ -6,7 +6,7 @@ const IndexPage = () => (
   <Layout>
     <div className="description">
       <h2>introduction</h2>
-      
+
       <p>The name of this website is a parody of manga and anime series "JoJo's Bizarre Adventure". This is essentially a personal blog where I talk about random stuff. It includes (but not limited to): Japanese culture and language, everyday life, coding, and so on.</p>
 
       <p>If you would like to learn more about the creator of this blog, please go to the "About Me" section or click <Link className="linkIndex" to="/about">here</Link>.</p>

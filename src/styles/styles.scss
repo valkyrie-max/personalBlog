@@ -1,10 +1,10 @@
 // background: F7F3F3
 // headings: pink B054A9, gold D9C330
-// text: 171212
+// text: 151413
 
 html {
     font-size: 62.5%;
-    background-color: #171212;
+    background-color: #151413;
 }
 
 .container {
@@ -97,4 +97,28 @@ p {
 .linkIndex:focus {
     color: #B054A9;
     outline: none;
+}
+
+.faq {
+    margin: 0;
+    padding: 0;
+
+    margin-top: 5rem;
+    li {
+        list-style-type: none;
+        border-bottom: 2px solid #B054A9;
+        color: #D9C330;
+        font-size: 1.8rem;
+        padding: 30px 0px;
+        .question {
+            font-weight: 700;
+            color: #D9C330;
+            font-size: 2.1rem;
+            margin-bottom: 0;
+        }
+        .answer {
+            margin-top: 5px;
+            line-height: 2;
+        }
+    }
 }
