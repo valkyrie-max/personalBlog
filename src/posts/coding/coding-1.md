@@ -1,6 +1,7 @@
 ---
 title: "What I learned from my most recent coding project"
 date: "2020-04-13"
+tags: ["Coding Journey", "Lessons Learned", "Tips and Tricks", "Long Post"]
 ---
 To be honest, I lost track of time since I have been accepted into the coding bootcamp. A lot of sad things happened during this time, including the COVID-19 pandemic that is still spreading in the most shockingly rapid way possible (to which I have to say, stay at home and wash your hands!). Although it is important to acknowledge the unhappy times, it is equally important to stay focused on positive matters in life. We are all different, so my definition of “bright and delighting activities” might not align with yours and vice versa. Nonetheless, I hope we all agree that in difficult times like this we should try and do things that bring joy in our lives. It could be anything that comes to mind! For example, recently my mom washed our cat and, honestly, I don’t remember when was the last time she smiled this wide. If such an ordinary thing made my mom smile, I am sure that there is something like this for everyone.
 
@@ -56,7 +57,7 @@ Hence, the moral of the story is that it is completely normal to take breaks and
 
 As mentioned previously, I’ve learned that there should not be any bad connotations with taking breaks. However, before taking the actual 24 hours of a break, I’ve decided to stop working on my project. The major reason for that being that I got stuck on the JavaScript file.
 
-By this time, the scope has been approved and I (somewhat) happily started working on my beloved recommendation quiz. I outlined all of the questions with all of the possible options, animes that could be potential recommendations, the design was finished as well. Next, I finished up my HTML markup and a bit of CSS to make it look a bit prettier. “Well, time to do some JavaScript!” I thought to myself only to see my dreams shatter in front of my eyes once I got stuck in the first ten lines of code.
+By this time, the scope has been approved and I (somewhat) happily started working on my beloved recommendation quiz. I outlined all of the questions with all of the possible options, anime that could be potential recommendations, the design was finished as well. Next, I finished up my HTML markup and a bit of CSS to make it look a bit prettier. “Well, time to do some JavaScript!” I thought to myself only to see my dreams shatter in front of my eyes once I got stuck in the first ten lines of code.
 
 I panicked. I knew that I had nearly two more weeks on the project. Then, I calmed down a bit and started googling whatever I had issues with. I glued the shards back together and my dream looked somewhat the same. Do you want to guess what happened next? Yes, the dream has been shattered again because I could not read almost every piece of code that I had been coming across. I felt incredibly discouraged. I was thinking to myself that I should’ve paid more attention in class, asked more questions, taken more notes…wait…notes!
 
