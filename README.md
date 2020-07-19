@@ -9,3 +9,5 @@
 07/16/20 === finished creating needed components, currently working on content creation and styling; WIP
 
 07/18/20 === decided to drop the CMS; will hook it up to WP later on; WIP
+
+07/19/20 === managed to display posts data; got tags to work; chnaged styling; 
