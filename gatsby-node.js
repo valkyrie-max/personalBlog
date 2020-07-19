@@ -38,7 +38,8 @@ module.exports.createPages = async ({graphql, actions}) => {
         }
     `)
 
-    response.data.allMarkdownRemark.edges.forEach((edge) => {
+    const posts = response.data.allMarkdownRemark.edges
+    posts.forEach((edge) => {
         createPage({
             component: blogTemplate,
             path: `/blog/${edge.node.fields.slug}`,
@@ -48,20 +49,20 @@ module.exports.createPages = async ({graphql, actions}) => {
         })
     })
 
+    let tags = [];
+    _.each(posts, edge => {
+        if (_.get(edge, 'node.frontmatter.tags')) {
+            tags = tags.concat(edge.node.frontmatter.tags)
+        }
+    })
+    
+    tags = _.uniq(tags)
 
-    response.data.allMarkdownRemark.edges.forEach((edge) => {
-        createPage({
-            component: tagTemplate,
-            path: `/tags/${edge.node.frontmatter.tags.forEach((tag, i) => {
-                if (i < edge.node.frontmatter.tags) {
-                    return `${tag[i]}`
-                } else {
-                    return null
-                }
-            })}`,
-            context: {
-                tag: edge.node.frontmatter.tags
-            }
-        })
+    createPage({ 
+        path: `/tags`,
+        component: tagTemplate,
+        context: {
+            tags
+        }
     })
 }
