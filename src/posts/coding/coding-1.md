@@ -1,7 +1,11 @@
 ---
 title: "What I learned from my most recent coding project"
 date: "2020-04-13"
-tags: ["Coding Journey", "Lessons Learned", "Tips and Tricks", "Long Post"]
+tags:
+- coding journey
+- lessons Learned
+- tips and Tricks
+- long Post
 ---
 To be honest, I lost track of time since I have been accepted into the coding bootcamp. A lot of sad things happened during this time, including the COVID-19 pandemic that is still spreading in the most shockingly rapid way possible (to which I have to say, stay at home and wash your hands!). Although it is important to acknowledge the unhappy times, it is equally important to stay focused on positive matters in life. We are all different, so my definition of “bright and delighting activities” might not align with yours and vice versa. Nonetheless, I hope we all agree that in difficult times like this we should try and do things that bring joy in our lives. It could be anything that comes to mind! For example, recently my mom washed our cat and, honestly, I don’t remember when was the last time she smiled this wide. If such an ordinary thing made my mom smile, I am sure that there is something like this for everyone.
 

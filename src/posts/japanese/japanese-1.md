@@ -1,7 +1,10 @@
 ---
 title: "Day 1/100"
 date: "2020-04-30"
-tags: ["Japanese Journey", "Hobby", "Short Post"]
+tags: 
+- japanese journey
+- hobby
+- short post
 ---
 
 **Unfortunately, today was a pretty short studying session. Nonetheless, I still managed to learning something new!**

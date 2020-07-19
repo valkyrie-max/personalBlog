@@ -1,7 +1,10 @@
 ---
 title: "Square One"
 date: "2020-03-01"
-tags: ["Life journey", "Passion", "Medium Post"]
+tags:
+- life journey
+- passion 
+- medium post
 ---
 
 **Well, here we go! It’s been a while since I did something like this.**

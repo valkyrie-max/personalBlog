@@ -1,5 +1,8 @@
 import React from 'react';
 import {Link, graphql, useStaticQuery} from 'gatsby'
+import {kebabCase} from 'lodash';
+
+import {slugify} from '../util/utilityFunctions'
 
 import Layout from '../components/layout'
 
@@ -36,7 +39,16 @@ const BlogPage = () => {
                                 <h3>{edge.node.fields.slug}</h3>
                             </Link>
                             <p>{edge.node.frontmatter.date}</p>
-                            <h4>{edge.node.frontmatter.tags}</h4>
+                            
+                            <ul className="tagList">
+                                {edge.node.frontmatter.tags.map((tag) =>{
+                                    return (
+                                        <li key ={`${tag}-tag`}>
+                                            <Link to={`/tags/${slugify(tag)}/`}>{tag}</Link>
+                                        </li>
+                                    )
+                                })}
+                            </ul>
                         </li>
                     )
                 })}

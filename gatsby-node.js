@@ -1,4 +1,5 @@
-const path = require(`path`)
+const path = require(`path`);
+const _ = require(`lodash`)
 
 module.exports.onCreateNode = ({node, actions}) => {
     const {createNodeField} = actions; 
@@ -18,6 +19,8 @@ module.exports.createPages = async ({graphql, actions}) => {
     const {createPage} = actions;
 
     const blogTemplate = path.resolve(`./src/templates/blog.js`);
+    const tagTemplate = path.resolve(`./src/templates/tags.js`)
+
     const response = await graphql(`
         query {
             allMarkdownRemark {
@@ -25,6 +28,9 @@ module.exports.createPages = async ({graphql, actions}) => {
                     node {
                         fields {
                             slug
+                        }
+                        frontmatter {
+                            tags
                         }
                     }
                 }
@@ -38,6 +44,23 @@ module.exports.createPages = async ({graphql, actions}) => {
             path: `/blog/${edge.node.fields.slug}`,
             context: {
                 slug: edge.node.fields.slug
+            }
+        })
+    })
+
+
+    response.data.allMarkdownRemark.edges.forEach((edge) => {
+        createPage({
+            component: tagTemplate,
+            path: `/tags/${edge.node.frontmatter.tags.forEach((tag, i) => {
+                if (i < edge.node.frontmatter.tags) {
+                    return `${tag[i]}`
+                } else {
+                    return null
+                }
+            })}`,
+            context: {
+                tag: edge.node.frontmatter.tags
             }
         })
     })
