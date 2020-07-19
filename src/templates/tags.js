@@ -13,7 +13,7 @@ const Tags = ({pageContext}) => {
             <ul>
                 {tags.map(tag => (
                     <li key={tag}>
-                        <Link to={`/tag/${slugify(tag)}`}>{tag}</Link>
+                        <Link to={`/tags/${slugify(tag)}`}>{tag}</Link>
                     </li>
                 ))}
             </ul>

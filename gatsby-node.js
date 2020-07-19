@@ -1,5 +1,7 @@
 const path = require(`path`);
-const _ = require(`lodash`)
+const _ = require(`lodash`);
+const { create } = require("lodash");
+const { slugify } = require("./src/util/utilityFunctions");
 
 module.exports.onCreateNode = ({node, actions}) => {
     const {createNodeField} = actions; 
@@ -20,6 +22,7 @@ module.exports.createPages = async ({graphql, actions}) => {
 
     const blogTemplate = path.resolve(`./src/templates/blog.js`);
     const tagTemplate = path.resolve(`./src/templates/tags.js`)
+    const tagPosts = path.resolve(`./src/templates/tagPosts.js`)
 
     const response = await graphql(`
         query {
@@ -65,4 +68,14 @@ module.exports.createPages = async ({graphql, actions}) => {
             tags
         }
     })
+
+    tags.forEach(tag => (
+        createPage({
+            path: `/tags/${slugify(tag)}`,
+            component: tagPosts,
+            context: {
+                tag
+            }
+        })
+    ))
 }

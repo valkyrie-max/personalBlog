@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link, graphql, useStaticQuery} from 'gatsby'
-import {kebabCase} from 'lodash';
 
 import {slugify} from '../util/utilityFunctions'
 
@@ -36,7 +35,7 @@ const BlogPage = () => {
                     return (
                         <li>
                             <Link to={`/blog/${edge.node.fields.slug}`}>
-                                <h3>{edge.node.fields.slug}</h3>
+                                <h3>{edge.node.frontmatter.title}</h3>
                             </Link>
                             <p>{edge.node.frontmatter.date}</p>
                             
