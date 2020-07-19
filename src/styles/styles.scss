@@ -28,7 +28,7 @@ a {
 }
 
 h1 {
-    margin: 2rem 0 8rem;
+    margin: 4rem 0 8rem;
     display: block;
     text-align: center;
 }
@@ -48,13 +48,7 @@ h3 {
     font-weight: 700;
     color: #B054A9;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.7;
     margin: 0;
-}
-
-h3:hover,
-h3:focus {
-    color: #CFB826
 }
 
 h1 a {
@@ -157,6 +151,15 @@ footer {
         margin-bottom: 20px;
         padding: 20px;
         box-shadow: 2px 2px 20px transparentize(#131315, 0.85);
+        h3{
+            line-height: 1.2;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        h3:hover,
+        h3:focus {
+            color: #CFB826
+        }
         .postDate {
             font-style: italic;
             margin: 0;
@@ -176,7 +179,8 @@ footer {
             font-size: 1.5rem;
             margin-right: 10px;
             a {
-                color: #131315
+                color: #131315;
+                font-weight: 400;
             }
         }
         li:hover,

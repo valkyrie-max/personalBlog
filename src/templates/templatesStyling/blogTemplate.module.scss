@@ -1,0 +1,46 @@
+h3:hover,
+h3:focus {
+    color: #B054A9;
+}
+
+h3 {
+    margin: 8rem 0 2rem;
+}
+
+a {
+    color: #CFB826;
+    font-weight: 700;
+}
+
+.postDate {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.tagList {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-bottom: 2px solid #B054A9;
+    padding-bottom: 20px;
+    li {
+        background-color: hsl(0, 20%, 92%);
+        list-style-type: none;
+        box-shadow: 2px 2px 20px transparentize(#131315, 0.85);
+        padding: 5px;
+        font-size: 1.5rem;
+        margin-right: 10px;
+        a {
+            color: #131315;
+            font-weight: 400;
+        }
+    }
+    li:hover,
+    li:focus {
+        box-shadow: 2px 2px 20px transparentize(#131315, 0.65);
+    }
+}
+
+.postContainer {
+    padding: 10px 0px 80px;
+}
