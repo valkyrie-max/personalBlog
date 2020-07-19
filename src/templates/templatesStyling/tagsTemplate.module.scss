@@ -1,0 +1,24 @@
+.separateTagList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    li {
+        background-color: hsl(0, 20%, 92%);
+        box-shadow: 2px 2px 20px transparentize(#131315, 0.85);
+        padding: 25px;
+        font-size: 2.5rem;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        list-style-type: none;
+        a {
+            color: #131315;
+            font-weight: 400;
+        }
+    }
+    li:hover,
+    li:focus {
+        box-shadow: 2px 2px 20px transparentize(#131315, 0.65);
+    }
+}
