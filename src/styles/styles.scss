@@ -28,7 +28,7 @@ a {
 }
 
 h1 {
-    margin: 8rem 0 8rem;
+    margin: 2rem 0 8rem;
     display: block;
     text-align: center;
 }
@@ -170,7 +170,7 @@ footer {
         padding: 0;
         display: flex;
         li {
-            background-color: #EFE7E7;
+            background-color: hsl(0, 20%, 92%);
             box-shadow: 2px 2px 20px transparentize(#131315, 0.85);
             padding: 5px;
             font-size: 1.5rem;

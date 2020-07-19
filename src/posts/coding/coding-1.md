@@ -18,7 +18,7 @@ Coming back to the above-mentioned point, I tend to go all out and wade through 
 So, to finally bring the introduction to its conclusion, in this post I will share with you 5(ish) things that I learned from doing my most recent coding project. The first topic will be about how I figured out the way of slowing down thoughts and narrowing down ideas. Next, I will share my experience with focusing on only essential things for the project. After that, I will describe how I took my breaks and why those breaks helped with efficiency. Breaks then will transition into revisiting and reviewing materials. Following this, we have the last section named “Asking For Help: It Is Okay To Do it. Seriously.” dedicated to seeking assistance among mentors, peers, and other experienced people.
 
 
-## Slowing Down & Narrowing Down
+### Slowing Down & Narrowing Down
 
 Once we’d been given the criteria for the third project, I felt puzzled. You might think, “The criteria were difficult to meet?” or “Was there something contradicting?” but none of those questions crossed my mind. At that time, I’d been anticipating a project that was not based on the idea of “your boss gave you this, work on it”. I was really excited to create an app, a game, a quiz, or whatever it might be built on my own concept. I of course also understood why we did the first two projects based on someone giving us a task, but I was eager to take the next step into “adult coding life”.
 
@@ -34,7 +34,7 @@ Thanks to the most recent project, which left me at first confused with my own t
 
 Therefore, the main takeaway of this section is how important and essential it is to understand what is your true nature when it comes to learning and studying. After understanding what works best for you, it will significantly improve not only your efficiency but it will also allow you to focus on 3 to 5 main ideas, concepts, or whatever it is you are working on, at a time. Based on my personality and my way of doing things, it is a true blessing to keep track of such a small amount of topics in a moment since my brain is continuously thinking and sometimes refuses to lose its grip. After finishing the project, I basically learned how to trick my brain into staying cool in situations like this. Hopefully, after more practice and hands-on experiences in the coding field, my brain will become forever calm!
 
-## One-Tasking
+### One-Tasking
 
 As I said above, for the third project I have outlined my personal criteria. Some of those included my passion for them, my level of knowledge about the concept, how relevant it would be for the users and many others. These benchmarks outlined in my head (and on sheets of paper) eventually reminded me of the [Five Ws approach](https://en.wikipedia.org/wiki/Five_Ws). I treated these criteria as checkpoints to keep myself on track and not wonder whether or not I should have chosen a different application to create.
 
@@ -44,7 +44,7 @@ Multitasking is praised by many employers all around the globe in the current da
 
 So, don’t be like past-me. To increase your efficiency and maximize your performance, it is essential to stay on track and keep in mind only one task at a time. Unfortunately, I cannot give you the specific technique that will help you but [this article](https://thriveglobal.com/stories/why-you-should-focus-one-project/) provides a general idea of how to go about one-tasking.
 
-## Taking Breaks
+### Taking Breaks
 
 Isn’t it self-explanatory? Taking breaks is essential for any kind of work. That’s why you get breaks in school, college, and the workplace. However, it mostly happens when others tell you to take a break. How about giving yourself a break?
 
@@ -57,7 +57,7 @@ It was a difficult time for me, mentally. I could not let go of the thought that
 Hence, the moral of the story is that it is completely normal to take breaks and there is nothing to feel embarrassed about. It is a proven fact that [breaks help your brain](https://www.psychologytoday.com/us/blog/changepower/201704/how-do-work-breaks-help-your-brain-5-surprising-answers). Breaks are known for improving your mood, preventing motivation fatigue, increasing creativity and efficiency, and overall improve learning. Unfortunately, I learned it the hard way, so hopefully, other people who read this post will not make the same mistake.
 
 
-## Revisit and Review
+### Revisit and Review
 
 As mentioned previously, I’ve learned that there should not be any bad connotations with taking breaks. However, before taking the actual 24 hours of a break, I’ve decided to stop working on my project. The major reason for that being that I got stuck on the JavaScript file.
 
@@ -67,7 +67,7 @@ I panicked. I knew that I had nearly two more weeks on the project. Then, I calm
 
 Since the idea of taking a healthy break was not in my head yet, I decided to step back from the project and do the research about JavaScript and JQuery. I started from scratch. I looked into the very first lectures we had, looked through my notes, re-typed those notes, looked into exercises, re-did those exercises, watched a bunch of YouTube videos and so on. By doing these steps, I re-learned (pun intended?) what the true power of revisiting, reviewing and repeating is like. After going up and going down the same stairs I noticed that there were some things I missed. It helped me to pay closer attention to details when learning something new or revisiting the old concepts. Although I was going through the same material and re-doing exercises, it really helped some concepts stick.
 
-## Asking for Help
+### Asking for Help
 
 I mentioned above that my nature is very competitive. Moreover, the environment that I grew up in was highly encouraging me to be better than others. However, it wasn’t done in a healthy manner. Rather than being the best based on your own skills and not showing off but being appreciative, the opposite was promoted. It was not really about the skills you possess but wealth. Therefore, it was okay to brag about how expensive your car was that you got last week and how your kid is carrying the most expensive phone at the time.
 
@@ -75,6 +75,6 @@ With all of my power I had at a time, I was trying to rebel against this sick an
 
 As for the project, there were multiple times I was stuck on many different issues. Sometimes it would drive me insane because I couldn’t find a solution to why my function wasn’t running or why my items weren’t aligned in the middle. Thanks to finishing the project, I started to appreciate the fact that there are so many people that know more than me and are willing to assist once they can. I am still working on this in order to be a mentally healthy person, but since finishing the last project, I was reminded again that it is okay to ask others for help when you feel lost or stuck. Seriously. One might say that being able to ask for help is a sign of [emotional strength](https://www.psychologytoday.com/intl/blog/emotional-mastery/201904/what-makes-it-so-hard-ask-help). Basically, in order to feel invincible, one must be vulnerable and brave enough to ask for help. To ask for help is to be emotionally mature.
 
-## Finale
+### Finale
 
 To conclude this ridiculously long article, here are five things I have and continue to learn every day after finishing the project. It’s been a wild ride since the beginning of the bootcamp back in March. It feels good to see that not only my technical and soft skills are improving but I am also starting to better understand myself.
