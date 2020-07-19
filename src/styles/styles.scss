@@ -1,22 +1,18 @@
 // background: F7F3F3
-// headings: pink B054A9, gold D9C330
-// text: 151413
+// headings: pink B054A9, gold CFB826
+// text: 131315
 
 html {
     font-size: 62.5%;
-    background-color: #151413;
+    background-color: #EFE7E7;
 }
 
 nav {
     position: sticky;
     top: 0px;
     z-index: 10;
-    background-color: #151413;
+    background-color: #EFE7E7;
     padding: 15px 0px;
-}
-
-.container {
-    box-shadow: 10px 0px 30px rgba(23, 18, 18, 0.2), -10px 0px 30px rgba(23, 18, 18, 0.2);
 }
 
 h1, h2, h3 {
@@ -27,6 +23,10 @@ p, ul, li {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     margin: 8rem 0 8rem;
     display: block;
@@ -34,19 +34,27 @@ h1 {
 }
 
 h2 {
-    color: #D9C330;
+    color: #CFB826;
+    text-shadow: 2px 0px #B054A9;
     font-size: 5rem;
     letter-spacing: 1.5px;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-    color: #F7F3F3;
-    font-size: 2rem;
-    letter-spacing: 1px;
+    color: #131315;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #B054A9;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     line-height: 1.7;
+    margin: 0;
+}
+
+h3:hover,
+h3:focus {
+    color: #CFB826
 }
 
 h1 a {
@@ -58,7 +66,7 @@ h1 a {
     position: relative;
     text-decoration: none;
     transition: all ease-in-out 1s;
-    text-shadow: 0px 0px transparent;
+    text-shadow: -3px 0px #CFB826;
 }
 
 .lineTop, .lineBottom {
@@ -66,7 +74,7 @@ h1 a {
     width: 0%;
     height: 5px;
     transition: all ease-in-out 1s;
-    background-color: #D9C330;
+    background-color: #CFB826;
     position: absolute;
 }
 
@@ -77,28 +85,31 @@ h1 a {
 
 h1 a:focus,
 h1 a:hover {
-    color: #D9C330;
+    color: #CFB826;
     outline: none;
+    text-shadow: 3px 0px #B054A9;
 }
 
 h1 a:focus,
 h1 a:hover {
     .lineTop, .lineBottom {
-        width: 100%;
+        width: 101.5%;
         background-color: #B054A9;
     }
 }
 
 
 p {
-    color: #F7F3F3;
+    color: #131315;
     font-size: 1.8rem;
     line-height: 1.7;
 }
 
 .linkIndex {
     text-decoration: none;
-    color: #D9C330;
+    font-weight: 700;
+    // text-shadow: 1px 0px #B054A9;
+    color: #CFB826;
     transition: all ease-in-out 0.3s;
 }
 
@@ -116,12 +127,12 @@ p {
     li {
         list-style-type: none;
         border-bottom: 2px solid #B054A9;
-        color: #D9C330;
+        color: #CFB826;
         font-size: 1.8rem;
         padding: 30px 0px;
         .question {
             font-weight: 700;
-            color: #D9C330;
+            color: #CFB826;
             font-size: 2.1rem;
             margin-bottom: 0;
         }
@@ -135,5 +146,42 @@ p {
 footer {
     p {
         font-size: 1.4rem;
+    }
+}
+
+.postList {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+        margin-bottom: 20px;
+        padding: 20px;
+        box-shadow: 2px 2px 20px transparentize(#131315, 0.85);
+        .postDate {
+            font-style: italic;
+            margin: 0;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    .tagList {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        li {
+            background-color: #EFE7E7;
+            box-shadow: 2px 2px 20px transparentize(#131315, 0.85);
+            padding: 5px;
+            font-size: 1.5rem;
+            margin-right: 10px;
+            a {
+                color: #131315
+            }
+        }
+        li:hover,
+        li:focus {
+            box-shadow: 2px 2px 20px transparentize(#131315, 0.65);
+        }
     }
 }

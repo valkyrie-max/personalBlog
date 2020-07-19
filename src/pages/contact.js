@@ -7,7 +7,7 @@ const Contact = () => {
         <Layout>
             <h2>contact me</h2>
 
-            <h3>if there is anything you want to chat about, please don't hesitate to contact me through any of the following:</h3>
+            <p>if there is anything you want to chat about, please don't hesitate to contact me through any of the following:</p>
 
             <ul>
                 <li>

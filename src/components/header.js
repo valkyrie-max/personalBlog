@@ -29,7 +29,7 @@ const Header = () => {
           <span className="lineTop"></span>
             Alisa's Odd Journey
           <span className="lineBottom"></span>
-          </Link>
+        </Link>
       </h1>
     </header>
     </>

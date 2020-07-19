@@ -29,16 +29,15 @@ const BlogPage = () => {
 
     return (
         <Layout>
-            <h2>aoj: blog</h2>
-            <ol>
+            <h2>blog</h2>
+            <ol className="postList">
                 {data.allMarkdownRemark.edges.map((edge) => {
                     return (
                         <li>
                             <Link to={`/blog/${edge.node.fields.slug}`}>
                                 <h3>{edge.node.frontmatter.title}</h3>
                             </Link>
-                            <p>{edge.node.frontmatter.date}</p>
-                            
+                            <p className="postDate">{edge.node.frontmatter.date}</p>
                             <ul className="tagList">
                                 {edge.node.frontmatter.tags.map((tag) =>{
                                     return (
