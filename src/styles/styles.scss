@@ -105,14 +105,15 @@ p {
 .linkIndex {
     text-decoration: none;
     font-weight: 700;
-    // text-shadow: 1px 0px #B054A9;
-    color: #CFB826;
+    // text-shadow: 2px 0px #B054A9;
+    border-bottom: 1px solid #B054A9;
+    color: #B054A9;
     transition: all ease-in-out 0.3s;
 }
 
 .linkIndex:hover,
 .linkIndex:focus {
-    color: #B054A9;
+    color: #CFB826;
     outline: none;
 }
 
