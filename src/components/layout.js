@@ -8,6 +8,7 @@ import {Helmet} from 'react-helmet'
 import LayoutStyle from  './componentStyling/layout.module.scss'
 import '../styles/setup.scss'
 import '../styles/styles.scss'
+import '../styles/mq.scss'
 
 const Layout = (props) => {
   return (

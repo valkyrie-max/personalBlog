@@ -9,18 +9,18 @@ const Contact = () => {
 
             <p>if there is anything you want to chat about, please don't hesitate to contact me through any of the following:</p>
 
-            <ul>
+            <ul className="contactList">
                 <li>
-                    <a href="">github</a>
+                    <a href="https://github.com/valkyrie-max">github</a>
                 </li>
                 <li>
-                    <a href="">twitter</a>
+                    <a href="https://twitter.com/alisacodes">twitter</a>
                 </li>
                 <li>
-                    <a href="">linkedin</a>
+                    <a href="https://www.linkedin.com/in/alisakitkina/">linkedin</a>
                 </li>
                 <li>
-                    <a href="">portfolio</a>
+                    <a href="https://alisacodes.dev/">portfolio</a>
                 </li>
             </ul>
         </Layout>

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout';
-
 import {slugify} from '../util/utilityFunctions'
+
+import TagPostsStyles from './templatesStyling/tagPosts.module.scss'
 
 const TagPosts = ({data, pageContext}) => {
     const {tag} = pageContext;
@@ -11,12 +12,26 @@ const TagPosts = ({data, pageContext}) => {
 
     return (
         <Layout>
-            <p>{pageHeader}</p>
-            {data.allMarkdownRemark.edges.map((edge) => (
-                <Link to={`/blog/${edge.node.fields.slug}`}>
-                    <h4>{edge.node.frontmatter.title}</h4>
-                </Link>
-            ))}
+            <p className={TagPostsStyles.tagsHeader}>{pageHeader}</p>
+            <ul className="postList">
+                    {data.allMarkdownRemark.edges.map((edge) => (
+                        <li>    
+                            <Link to={`/blog/${edge.node.fields.slug}`}>
+                                <h3>{edge.node.frontmatter.title}</h3>
+                            </Link>
+                            <p className="postDate">{edge.node.frontmatter.date}</p>
+                            <ul className="tagList">
+                                {edge.node.frontmatter.tags.map((tag) =>{
+                                    return (
+                                        <li key ={`${tag}-tag`}>
+                                            <Link to={`/tags/${slugify(tag)}/`}>{tag}</Link>
+                                        </li>
+                                    )
+                                })}
+                            </ul>
+                        </li>
+                    ))}
+            </ul>
         </Layout>
     )
 }
