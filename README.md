@@ -13,3 +13,5 @@
 07/19/20 === managed to display posts data; got tags to work; changed styling; WIP
 
 07/20/20 (as of this date, FINAL COMMIT) === finished all styling; deployed to netlify; 
+
+**CHECK IT OUT LIVE [HERE](https://alisa-odd-journey.netlify.app/)**
